@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="paramter">
+    <test name="param">
+        <classes>
+            <parameter name="name" value="小明"/>
+            <parameter name="age" value="3"/>
+            <class name="com.gzl.testng.paramter.ParamterTest"/>
+        </classes>
+    </test>
+</suite>
