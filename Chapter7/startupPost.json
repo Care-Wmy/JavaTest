@@ -1,0 +1,25 @@
+[
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是我的第一个mock的post请求",
+      "headers":{"Content-Type":"text/html;charset=gbk"}
+    }
+  },
+  {
+    "description": "这是一个带参数的post请求",
+    "request": {
+      "uri": "/postsumdemo",
+      "method": "post",
+      "forms":{"name": "paopao","age": "88"}
+    },
+    "response": {
+      "text": "paopao来了泡泡来了",
+      "headers":{"Content-Type":"text/html;charset=gbk"}
+    }
+  }
+]
